@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1.5rem 0;
+  color: $mainGrey;
+  background-color: $mainBlack;
+  & img {
+    margin-right: 10px;
+  }
+}

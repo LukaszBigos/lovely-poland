@@ -1,0 +1,28 @@
+@import "../../index.scss";
+
+.citylist {
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 70vw;
+}
+
+@media screen and (min-width: 768px) {
+  .citylist {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .citylist {
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .citylist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
