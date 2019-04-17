@@ -20,7 +20,6 @@ export default class CityList extends Component {
   render() {
     const { cities } = this.state;
 
-    console.log(this.state.cities);
     return (
       <section className="citylist">
         {cities.map(city => (
